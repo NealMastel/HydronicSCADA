@@ -144,7 +144,7 @@ unsigned long currentMillis = millis();
 
   if ( client.connected() )
   {
-    client.print( "GET /localmysqlcon.php?");
+    client.print( "GET /mysql/localmysqlcon.php?");
     client.print("temp1=");
     client.print( tc1 );
     client.print("&temp2=");
