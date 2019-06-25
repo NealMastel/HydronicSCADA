@@ -7,8 +7,8 @@
 
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "summit800";
+$username = "********";
+$password = "********";
 $dbname = "currenttemp";
 
 // Create connection
