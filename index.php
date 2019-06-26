@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<!-- CSS included files test-->
+	<!-- CSS included files -->
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	
 	<!-- included Javascript files -->
