@@ -743,7 +743,6 @@
 			<rect x="193" y="55" width="10" height="10" style="fill:black;" />
 			<rect x="167" y="130" width="30" height="10" style="fill:white;" />
 	</svg>
-	
 	</div>	
 	
 	<!-- DIV for Halo Sensor Image -->
@@ -998,8 +997,6 @@
 				style="stroke:#000000;stroke-width:3;stroke-dasharray:5,5;" 
 			/>
 	</div>
-	
-</body>
 
 	<!-- DIV for Air Handling Unit Fan -->
 	<div id="AirHandlingUnitFanDIV" style="position: absolute; top: 225px; left: 956px; width: 70; height: 70; background-color: transparent;" >
@@ -1341,8 +1338,6 @@
 				style="stroke:#000000;stroke-width:3" 
 			/>
 	</div>
-	
-</body>
 
 	<!-- DIV for Air Handling Unit Supply Air Temp Text (innerHTML change via Javascript) -->
 	<div id="AirHandlingUnitAirSupplyTempTextDIV" style="position: absolute; top: 38px; left: 846px; font-size: 12px; font-weight: bold;" > Air Handling Unit Supply Air Temp
@@ -2192,8 +2187,6 @@
 				style="stroke:#000000;stroke-width:3;stroke-dasharray:5,5;" 
 			/>
 	</div>
-	
-</body>
 
 	<!-- DIV for Garage Hanging Heater SVG -->
 	<div id="GarageHangingHeaterSVGDIV" style="position: absolute; top: 350px; left: 0px; background-color: transparent;" >
@@ -2276,8 +2269,6 @@
 			/>
 			
 	</div>
-	
-</body>
 
 	<!-- DIV for Garage Hanging Heater Fan -->
 	<div id="GarageHanginHeaterFanDIV" style="position: absolute; top: 1000px; left: 300px; width: 70; height: 70; background-color: transparent;" >
@@ -2845,7 +2836,6 @@
 		
 	</div>	
 	
-	
 	<!-- DIV for googleBarChart  -->
 	<div id="googleColumnChart" style="position: absolute; top: 650px; left: 10px; width: 600px; height: 300px; background-color: transparent;" >
 	</div>
@@ -2854,7 +2844,6 @@
 	<div id="googleChartDIV" style="position: absolute; top: 350px; left: 10px; width: 600px; height: 300px; background-color: transparent;" >
 	</div>
 
-	
 	<!-- Javascript for water pipe -->
 	<script type="text/javascript">
 	
