@@ -5,7 +5,7 @@
 	<!-- CSS included files test -->
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	
-	<!-- included Javascript files -->
+	<!-- included Javascript files any others?? -->
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	
