@@ -2,10 +2,14 @@
 <html>
 
 <head>
+<<<<<<< HEAD
 	<!-- CSS included files test update from VisualStudioCode-->
+=======
+	<!-- CSS included files test -->
+>>>>>>> 0abe1d867c96798be4b66d315ba83d78a79dd1a8
 	<link href="css/style.css" rel="stylesheet" type="text/css">
 	
-	<!-- included Javascript files -->
+	<!-- included Javascript files any others?? -->
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 	
