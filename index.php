@@ -961,6 +961,7 @@
 	
 	<!-- DIV for House Forced Air Border SVG -->
 	<div id="HouseForcedAirBorderSVGDIV" style="position: absolute; background-color: transparent;" >
+
 		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
@@ -996,6 +997,7 @@
 				id="HouseForcedAirBorder"
 				style="stroke:#000000;stroke-width:3;stroke-dasharray:5,5;" 
 			/>
+			</svg>
 	</div>
 
 	<!-- DIV for Air Handling Unit Fan -->
@@ -1337,6 +1339,7 @@
 				id="AirHandlingUnitBackupElectricStrips"
 				style="stroke:#000000;stroke-width:3" 
 			/>
+			</svg>
 	</div>
 
 	<!-- DIV for Air Handling Unit Supply Air Temp Text (innerHTML change via Javascript) -->
@@ -2186,6 +2189,7 @@
 				id="HouseDomesticHotWaterBorder"
 				style="stroke:#000000;stroke-width:3;stroke-dasharray:5,5;" 
 			/>
+			</svg>
 	</div>
 
 	<!-- DIV for Garage Hanging Heater SVG -->
@@ -2267,7 +2271,7 @@
 				id="AirHandlingUnitFins"
 				style="stroke:#000000;stroke-width:1" 
 			/>
-			
+		</svg>
 	</div>
 
 	<!-- DIV for Garage Hanging Heater Fan -->
@@ -2944,8 +2948,6 @@
 			document.getElementById("M250Supply2WaterTempTextDIV").style.color = "green";	
 		};
 		
-		
-		
 		/* M250 Stack Temp update */
 		document.getElementById("M250StackTempDIV").innerHTML = 'Stack Temp '+M250StackTemp+'&#176';
 		
@@ -3056,10 +3058,6 @@
 			document.getElementById("AirHandlingUnitBackupElectricStrips").style.stroke = "red"
 
 		};
-		
-		
-		
-	
     };
 	
 	/* Call update function so there is no delay for the first call */
@@ -3072,8 +3070,3 @@
 	</div>
 </body>
 </html>
-
-
-
-
-
