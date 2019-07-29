@@ -1,5 +1,5 @@
 <?php
-$mysqli = new mysqli("localhost", "********", "********", "currenttemp");
+$mysqli = new mysqli("localhost", "root", "summit800", "currenttemp");
 
 /* check connection */
 if ($mysqli->connect_errno) {
