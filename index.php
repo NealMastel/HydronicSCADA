@@ -64,6 +64,7 @@
 	var M250Supply2CirculatorRPM = 1;
 	var AirHandlingUnitCirculatorRPM = 1;
 	var DomesticHotWaterCirculatorRPM = .5;
+	var HouseMasterBathroomTowelWarmerCirculatorRPM = 1;
 	var M250StackTemp
 	var M250HopperLevel
 	var M250WaterLevel
@@ -2192,8 +2193,28 @@
 			</svg>
 	</div>
 
-		<!-- DIV for House Master Bathroom Towel Warmer and Infloor Heat -->
-		<div id="HouseMasterBathTowelWarmerInfloorPipeDIV" style="position: absolute; top: 0px; left: 0px;" >
+	<!-- DIV for House Master Bathroom Towel Warmer Circulator -->
+	<div id=HouseMasterBathroomTowelWarmerCirculatorDIV" style="position: absolute; top: 622px; left: 766px; width: 40px; height: 40px; background-color: transparent;" >
+		<img src="/images/circ.png" style="height: 100%; width: 100%; position: absolute; top: 0px; left: 0px; object-fit: contain"/>
+		<svg width="100" height="100" viewbox="-22 -23 145 145">
+			<polygon points="0,0 20,10 0,20">
+				<animateTransform 
+					id="HouseMasterBathroomTowelWarmerCirculatorTriangle"
+					attributeName="transform"
+					attributeType="css"
+					type="rotate"
+					from="0 7 10"
+					to="360 7 10"
+					dur="6"
+					repeatCount="indefinite"
+				/>
+			</polygon>
+			
+		</svg>
+	</div>
+
+	<!-- DIV for House Master Bathroom Towel Warmer -->
+	<div id="HouseMasterBathTowelWarmerDIV" style="position: absolute; top: 0px; left: 0px;" >
 		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
@@ -3044,7 +3065,9 @@
 		
 		/* Set the rmp variable of DomesticHotWaterCirculator to the animateTransform duration attribute */
 		document.getElementById("DomesticHotWaterCirculatorTriangle").setAttribute("dur",DomesticHotWaterCirculatorRPM);
-		
+
+		/* Set the rmp variable of DomesticHotWaterCirculator to the animateTransform duration attribute */
+		document.getElementById("HouseMasterBathroomTowelWarmerCirculatorTriangle").setAttribute("dur",HouseMasterBathroomTowelWarmerCirculatorRPM);
 		
 		/* Air Handling Unit Electric Strips Text Update */
 		if (AirHandlingUnitElectricStripPower < 1) {
