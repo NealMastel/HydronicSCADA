@@ -2192,6 +2192,276 @@
 			</svg>
 	</div>
 
+		<!-- DIV for House Master Bathroom Towel Warmer and Infloor Heat -->
+		<div id="HouseMasterBathTowelWarmerInfloorPipeDIV" style="position: absolute; top: 0px; left: 0px;" >
+		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<svg
+			xmlns:svg="http://www.w3.org/2000/svg"
+			xmlns="http://www.w3.org/2000/svg"
+			version="1.1"
+			width="1600"
+			height="1800"
+		>
+			<style type="text/css">  
+				@keyframes move {  
+					from {  stroke-dashoffset: 96;  }  
+					to   {  stroke-dashoffset: 0;  }  
+				}  
+				@-moz-keyframes move {  
+					from {  stroke-dashoffset: 96;  }  
+					to   {  stroke-dashoffset: 0;  }  
+				}  
+				@-webkit-keyframes move {  
+					from {  stroke-dashoffset: 96;  }  
+					to   {  stroke-dashoffset: 0;  }  
+				}  
+			</style>  
+  
+			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Black Water Pipe Walls -->
+			<path
+				d="M945,1150
+				L945,920
+				L1100,920
+				L1100,950
+				L960,950
+				L960,980
+				L1100,980
+				L1100,1010
+				L960,1010
+				L960,1040
+				L1100,1040
+				L1100,1070
+				L960,1070
+				L960,1100
+				L1100,1100
+				L1100,1170
+				L1400,1170
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorSupplyBlackWaterPipeWalls"
+				style="stroke:#000000;stroke-width:7" 
+			/>
+	   
+			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red Interior Water Pipe -->
+			<path
+				d="M945,1150
+				L945,920
+				L1100,920
+				L1100,950
+				L960,950
+				L960,980
+				L1100,980
+				L1100,1010
+				L960,1010
+				L960,1040
+				L1100,1040
+				L1100,1070
+				L960,1070
+				L960,1100
+				L1100,1100
+				L1100,1170
+				L1400,1170
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorSupplyRedInteriorWaterPipe"
+				style="stroke:#ff0000;stroke-width:5" 
+			/> 
+	   
+			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #1 Water Pipe -->
+			<path
+				d="M945,1150
+				L945,920
+				L1100,920
+				L1100,950
+				L960,950
+				L960,980
+				L1100,980
+				L1100,1010
+				L960,1010
+				L960,1040
+				L1100,1040
+				L1100,1070
+				L960,1070
+				L960,1100
+				L1100,1100
+				L1100,1170
+				L1400,1170
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorSupplyRed1WaterPipe"
+				style="stroke:#ff3232;stroke-width:5;stroke-dasharray:0, 12, 72, 13;
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+		
+			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #2 Water Pipe -->
+			<path
+				d="M945,1150
+				L945,920
+				L1100,920
+				L1100,950
+				L960,950
+				L960,980
+				L1100,980
+				L1100,1010
+				L960,1010
+				L960,1040
+				L1100,1040
+				L1100,1070
+				L960,1070
+				L960,1100
+				L1100,1100
+				L1100,1170
+				L1400,1170
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorSupplyRed2WaterPipe"
+				style="stroke:#ff6666;stroke-width:5;stroke-dasharray:0, 24, 48, 24;
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+		
+			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #3 Water Pipe -->
+			<path
+				d="M945,1150
+				L945,920
+				L1100,920
+				L1100,950
+				L960,950
+				L960,980
+				L1100,980
+				L1100,1010
+				L960,1010
+				L960,1040
+				L1100,1040
+				L1100,1070
+				L960,1070
+				L960,1100
+				L1100,1100
+				L1100,1170
+				L1400,1170
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorSupplyRed3WaterPipe"
+				style="stroke:#ff9999;stroke-width:5;stroke-dasharray:0, 36, 24, 36;
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;"  
+			/>
+		
+			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #4 Water Pipe -->	
+			<path
+				d="M945,1150
+				L945,920
+				L1100,920
+				L1100,950
+				L960,950
+				L960,980
+				L1100,980
+				L1100,1010
+				L960,1010
+				L960,1040
+				L1100,1040
+				L1100,1070
+				L960,1070
+				L960,1100
+				L1100,1100
+				L1100,1170
+				L1400,1170
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorSupplyRed4WaterPipe"
+				style="stroke:#ffcccc;stroke-width:5;stroke-dasharray:0, 45, 6, 45;   
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+			
+			<!-- Path of House Master Bath Towel Warmer and Infloor Return Black Water Pipe Walls ----------------------------------------------------------------------------------------->
+			<path
+				d="M709,1600
+				
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorReturnBlackWaterPipeWalls"
+				style="stroke:#000000;stroke-width:9" 
+			/>
+	   
+			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue Interior Water Pipe -->
+			<path
+				d="M709,1600
+				
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorReturnBlue1InteriorWaterPipe"
+				style="stroke:#0000ff;stroke-width:7" 
+			/> 
+	   
+			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #1 Water Pipe -->
+			<path
+				d="M709,1600
+				
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorReturnBlue1WaterPipe"
+				style="stroke:#3232ff;stroke-width:7;stroke-dasharray:0, 12, 72, 13;
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+		
+			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #2 Water Pipe -->
+			<path
+				d="M709,1600
+				
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorReturnBlue2WaterPipe"
+				style="stroke:#6666ff;stroke-width:7;stroke-dasharray:0, 24, 48, 24;
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+		
+			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #3 Water Pipe -->
+			<path
+				d="M709,1600
+				
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorReturnBlue3WaterPipe"
+				style="stroke:#9999ff;stroke-width:7;stroke-dasharray:0, 36, 24, 36;
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+		
+			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #4 Water Pipe -->	
+			<path
+				d="M709,1600
+				
+				"
+				fill="none"
+				id="HouseMasterBathTowelWarmerandInfloorReturnBlue4WaterPipe"
+				style="stroke:#ccccff;stroke-width:7;stroke-dasharray:0, 45, 6, 45;   
+				animation-duration: .5s;  
+				animation-name: move; 
+				animation-timing-function: linear; 
+				animation-iteration-count: infinite;" 
+			/>
+		</svg>
+		
+	</div>
+
 	<!-- DIV for Garage Hanging Heater SVG -->
 	<div id="GarageHangingHeaterSVGDIV" style="position: absolute; top: 350px; left: 0px; background-color: transparent;" >
 		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -2568,276 +2838,6 @@
 			</polygon>
 			
 		</svg>
-	</div>
-	
-	<!-- DIV for House Master Bathroom Towel Warmer and Infloor Heat -->
-	<div id="HouseMasterBathTowelWarmerInfloorPipeDIV" style="position: absolute; top: 0px; left: 0px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-		<svg
-			xmlns:svg="http://www.w3.org/2000/svg"
-			xmlns="http://www.w3.org/2000/svg"
-			version="1.1"
-			width="1600"
-			height="1800"
-		>
-			<style type="text/css">  
-				@keyframes move {  
-					from {  stroke-dashoffset: 96;  }  
-					to   {  stroke-dashoffset: 0;  }  
-				}  
-				@-moz-keyframes move {  
-					from {  stroke-dashoffset: 96;  }  
-					to   {  stroke-dashoffset: 0;  }  
-				}  
-				@-webkit-keyframes move {  
-					from {  stroke-dashoffset: 96;  }  
-					to   {  stroke-dashoffset: 0;  }  
-				}  
-			</style>  
-  
-			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Black Water Pipe Walls -->
-			<path
-				d="M945,1150
-				L945,920
-				L1100,920
-				L1100,950
-				L960,950
-				L960,980
-				L1100,980
-				L1100,1010
-				L960,1010
-				L960,1040
-				L1100,1040
-				L1100,1070
-				L960,1070
-				L960,1100
-				L1100,1100
-				L1100,1170
-				L1400,1170
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorSupplyBlackWaterPipeWalls"
-				style="stroke:#000000;stroke-width:7" 
-			/>
-	   
-			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red Interior Water Pipe -->
-			<path
-				d="M945,1150
-				L945,920
-				L1100,920
-				L1100,950
-				L960,950
-				L960,980
-				L1100,980
-				L1100,1010
-				L960,1010
-				L960,1040
-				L1100,1040
-				L1100,1070
-				L960,1070
-				L960,1100
-				L1100,1100
-				L1100,1170
-				L1400,1170
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorSupplyRedInteriorWaterPipe"
-				style="stroke:#ff0000;stroke-width:5" 
-			/> 
-	   
-			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #1 Water Pipe -->
-			<path
-				d="M945,1150
-				L945,920
-				L1100,920
-				L1100,950
-				L960,950
-				L960,980
-				L1100,980
-				L1100,1010
-				L960,1010
-				L960,1040
-				L1100,1040
-				L1100,1070
-				L960,1070
-				L960,1100
-				L1100,1100
-				L1100,1170
-				L1400,1170
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorSupplyRed1WaterPipe"
-				style="stroke:#ff3232;stroke-width:5;stroke-dasharray:0, 12, 72, 13;
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-		
-			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #2 Water Pipe -->
-			<path
-				d="M945,1150
-				L945,920
-				L1100,920
-				L1100,950
-				L960,950
-				L960,980
-				L1100,980
-				L1100,1010
-				L960,1010
-				L960,1040
-				L1100,1040
-				L1100,1070
-				L960,1070
-				L960,1100
-				L1100,1100
-				L1100,1170
-				L1400,1170
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorSupplyRed2WaterPipe"
-				style="stroke:#ff6666;stroke-width:5;stroke-dasharray:0, 24, 48, 24;
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-		
-			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #3 Water Pipe -->
-			<path
-				d="M945,1150
-				L945,920
-				L1100,920
-				L1100,950
-				L960,950
-				L960,980
-				L1100,980
-				L1100,1010
-				L960,1010
-				L960,1040
-				L1100,1040
-				L1100,1070
-				L960,1070
-				L960,1100
-				L1100,1100
-				L1100,1170
-				L1400,1170
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorSupplyRed3WaterPipe"
-				style="stroke:#ff9999;stroke-width:5;stroke-dasharray:0, 36, 24, 36;
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;"  
-			/>
-		
-			<!-- Path of House Master Bath Towel Warmer and Infloor Supply Red #4 Water Pipe -->	
-			<path
-				d="M945,1150
-				L945,920
-				L1100,920
-				L1100,950
-				L960,950
-				L960,980
-				L1100,980
-				L1100,1010
-				L960,1010
-				L960,1040
-				L1100,1040
-				L1100,1070
-				L960,1070
-				L960,1100
-				L1100,1100
-				L1100,1170
-				L1400,1170
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorSupplyRed4WaterPipe"
-				style="stroke:#ffcccc;stroke-width:5;stroke-dasharray:0, 45, 6, 45;   
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-			
-			<!-- Path of House Master Bath Towel Warmer and Infloor Return Black Water Pipe Walls ----------------------------------------------------------------------------------------->
-			<path
-				d="M709,1600
-				
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorReturnBlackWaterPipeWalls"
-				style="stroke:#000000;stroke-width:9" 
-			/>
-	   
-			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue Interior Water Pipe -->
-			<path
-				d="M709,1600
-				
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorReturnBlue1InteriorWaterPipe"
-				style="stroke:#0000ff;stroke-width:7" 
-			/> 
-	   
-			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #1 Water Pipe -->
-			<path
-				d="M709,1600
-				
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorReturnBlue1WaterPipe"
-				style="stroke:#3232ff;stroke-width:7;stroke-dasharray:0, 12, 72, 13;
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-		
-			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #2 Water Pipe -->
-			<path
-				d="M709,1600
-				
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorReturnBlue2WaterPipe"
-				style="stroke:#6666ff;stroke-width:7;stroke-dasharray:0, 24, 48, 24;
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-		
-			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #3 Water Pipe -->
-			<path
-				d="M709,1600
-				
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorReturnBlue3WaterPipe"
-				style="stroke:#9999ff;stroke-width:7;stroke-dasharray:0, 36, 24, 36;
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-		
-			<!-- Path of House Master Bath Towel Warmer and Infloor Return Blue #4 Water Pipe -->	
-			<path
-				d="M709,1600
-				
-				"
-				fill="none"
-				id="HouseMasterBathTowelWarmerandInfloorReturnBlue4WaterPipe"
-				style="stroke:#ccccff;stroke-width:7;stroke-dasharray:0, 45, 6, 45;   
-				animation-duration: .5s;  
-				animation-name: move; 
-				animation-timing-function: linear; 
-				animation-iteration-count: infinite;" 
-			/>
-		</svg>
-		
 	</div>	
 	
 	<!-- DIV for googleBarChart  -->
