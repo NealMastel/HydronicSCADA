@@ -3,7 +3,7 @@
 
 <head>
 	<!-- CSS included files -->
-	<link href="css/style.css" rel="stylesheet" type="text/css">
+	
 	
 	<!-- included Javascript files -->
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -145,7 +145,7 @@
 		GarageReturnFlowRate = dataArray[34];
 		
 		/* Log M250Supply1WaterTemp to verify JSON data population */
-		console.log(M250Supply1WaterTemp);
+		// console.log(M250Supply1WaterTemp);
 		});
     };
 	
@@ -165,7 +165,7 @@
 		});
 		
 		/* Log googleChartDataArray[500] to verify JSON data population */
-		console.log(googleChartDataArray[500]);
+		// console.log(googleChartDataArray);
     };
 	
 	/* Call googleChartJSON function so there is no delay for the first call */
@@ -184,29 +184,21 @@
 		data.addColumn('number', 'Thermocouple 2');
 		data.addColumn('number', 'Thermocouple 3');
 
-		/* JSON data was built for 5 thermocouples, only uing 3 at present */
-		data.addRows([
-			[new Date(googleChartDataArray[1000]*1000),  parseFloat(googleChartDataArray[500]), parseFloat(googleChartDataArray[501]), parseFloat(googleChartDataArray[502])],
-			[new Date(googleChartDataArray[1005]*1000),  parseFloat(googleChartDataArray[505]), parseFloat(googleChartDataArray[506]), parseFloat(googleChartDataArray[507])],
-			[new Date(googleChartDataArray[1010]*1000),  parseFloat(googleChartDataArray[510]), parseFloat(googleChartDataArray[511]), parseFloat(googleChartDataArray[512])],
-			[new Date(googleChartDataArray[1015]*1000),  parseFloat(googleChartDataArray[515]), parseFloat(googleChartDataArray[516]), parseFloat(googleChartDataArray[517])],
-			[new Date(googleChartDataArray[1020]*1000),  parseFloat(googleChartDataArray[520]), parseFloat(googleChartDataArray[521]), parseFloat(googleChartDataArray[522])],
-			[new Date(googleChartDataArray[1025]*1000),  parseFloat(googleChartDataArray[525]), parseFloat(googleChartDataArray[526]), parseFloat(googleChartDataArray[527])],
-			[new Date(googleChartDataArray[1030]*1000),  parseFloat(googleChartDataArray[530]), parseFloat(googleChartDataArray[531]), parseFloat(googleChartDataArray[532])],
-			[new Date(googleChartDataArray[1035]*1000),  parseFloat(googleChartDataArray[535]), parseFloat(googleChartDataArray[536]), parseFloat(googleChartDataArray[537])],
-			[new Date(googleChartDataArray[1040]*1000),  parseFloat(googleChartDataArray[540]), parseFloat(googleChartDataArray[541]), parseFloat(googleChartDataArray[542])],
-			[new Date(googleChartDataArray[1045]*1000),  parseFloat(googleChartDataArray[545]), parseFloat(googleChartDataArray[546]), parseFloat(googleChartDataArray[547])],
-			[new Date(googleChartDataArray[1050]*1000),  parseFloat(googleChartDataArray[550]), parseFloat(googleChartDataArray[551]), parseFloat(googleChartDataArray[552])],
-			[new Date(googleChartDataArray[1055]*1000),  parseFloat(googleChartDataArray[555]), parseFloat(googleChartDataArray[556]), parseFloat(googleChartDataArray[557])],
-			[new Date(googleChartDataArray[1060]*1000),  parseFloat(googleChartDataArray[560]), parseFloat(googleChartDataArray[561]), parseFloat(googleChartDataArray[562])],
-			[new Date(googleChartDataArray[1065]*1000),  parseFloat(googleChartDataArray[565]), parseFloat(googleChartDataArray[566]), parseFloat(googleChartDataArray[567])],
-			[new Date(googleChartDataArray[1070]*1000),  parseFloat(googleChartDataArray[570]), parseFloat(googleChartDataArray[571]), parseFloat(googleChartDataArray[572])],
-			[new Date(googleChartDataArray[1075]*1000),  parseFloat(googleChartDataArray[575]), parseFloat(googleChartDataArray[576]), parseFloat(googleChartDataArray[577])],
-			[new Date(googleChartDataArray[1080]*1000),  parseFloat(googleChartDataArray[580]), parseFloat(googleChartDataArray[581]), parseFloat(googleChartDataArray[582])],
-			[new Date(googleChartDataArray[1085]*1000),  parseFloat(googleChartDataArray[585]), parseFloat(googleChartDataArray[586]), parseFloat(googleChartDataArray[587])],
-			[new Date(googleChartDataArray[1090]*1000),  parseFloat(googleChartDataArray[590]), parseFloat(googleChartDataArray[591]), parseFloat(googleChartDataArray[592])],
-			[new Date(googleChartDataArray[1095]*1000),  parseFloat(googleChartDataArray[595]), parseFloat(googleChartDataArray[596]), parseFloat(googleChartDataArray[597])]
-		]);
+		/* JSON data was built for 5 thermocouples, only using 3 at present */
+		var twoDimensionalArray =[];
+		counter = 0;
+		for (var i=0;i<450;i++,counter+=4)
+		{
+  		var compiledata = [];
+  		for (var j=0;j<1;j++)
+ 		{
+    		compiledata.push(new Date(googleChartDataArray[counter]),  googleChartDataArray[counter+1], googleChartDataArray[counter+2], googleChartDataArray[counter+3]);
+  		}
+ 		twoDimensionalArray.push(compiledata);
+		}
+		// console.log(twoDimensionalArray)
+		// Use the above created 2d array for the google charts data.addRows function
+		data.addRows(twoDimensionalArray);
 		
 		/* Assmble Google Chart options */
 		var options = {

@@ -1,0 +1,1 @@
+SELECT thermocouple, temperature, UNIX_TIMESTAMP(timestamp) FROM charttemps WHERE thermocouple BETWEEN 1 AND 5 ORDER BY timestamp DESC, thermocouple ASC LIMIT 500
