@@ -4,7 +4,6 @@
 <head>
 	<!-- CSS included files -->
 	
-	
 	<!-- included Javascript files -->
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
