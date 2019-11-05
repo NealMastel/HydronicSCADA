@@ -765,7 +765,7 @@
 	
 	<!-- DIV for House Water Pipe -->
 	<div id="HouseWaterPipeDIV" style="position: absolute; top: 0px; left: 0px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -962,7 +962,7 @@
 	<!-- DIV for House Forced Air Border SVG -->
 	<div id="HouseForcedAirBorderSVGDIV" style="position: absolute; background-color: transparent;" >
 
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -1027,7 +1027,7 @@
 
 	<!-- DIV for Air Handling Unit Water Pipe -->
 	<div id="AirHandlingUnitWaterPipeDIV" style="position: absolute; top: 0px; left: 0px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -1249,7 +1249,7 @@
 	
 	<!-- DIV for Air Handling Unit SVG -->
 	<div id="AirHandlingUnitSVGDIV" style="position: absolute; background-color: transparent;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -1403,7 +1403,7 @@
 	
 	<!-- DIV for Domestic Hot Water Water Pipe -->
 	<div id="DomesticHotWaterWaterPipeDIV" style="position: absolute; top: 90px; left: -54px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -2154,7 +2154,7 @@
 	
 	<!-- DIV for House Domestic Hot Water Border SVG -->
 	<div id="HouseForcedAirBorderSVGDIV" style="position: absolute; background-color: transparent;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -2254,7 +2254,7 @@
 
 	<!-- DIV for Bathroom Tower Warmers Pipe -->
 	<div id="BathroomTowelWarmersWaterPipeDIV" style="position: absolute; top: 0px; left: 0px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -2954,7 +2954,7 @@
 
 	<!-- DIV for House Bathroom Towel Warmers Border SVG -->
 	<div id="HouseForcedAirBorderSVGDIV" style="position: absolute; background-color: transparent;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -2996,7 +2996,7 @@
 
 	<!-- DIV for Garage Hanging Heater SVG ------------------------------------------------------------------------------------------------------------------------------------>
 	<div id="GarageHangingHeaterSVGDIV" style="position: absolute; top: 350px; left: 0px; background-color: transparent;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
@@ -3096,7 +3096,7 @@
 
 	<!-- DIV for Dog House Infloor Water Pipe -->
 	<div id="HouseWaterPipeDIV" style="position: absolute; top: 850px; left: 0px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+		<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
