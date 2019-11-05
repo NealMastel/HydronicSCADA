@@ -316,7 +316,7 @@
 	
 	<!-- DIV for M250 Water Pipe -->
 	<div id="M250WaterPipe" style="position: absolute; top: 0px; left: 0px;" >
-		<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<?php echo '<?xml version="1.0" encoding="utf-8" ?>'; ?>
 		<svg
 			xmlns:svg="http://www.w3.org/2000/svg"
 			xmlns="http://www.w3.org/2000/svg"
