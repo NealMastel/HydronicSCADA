@@ -19,7 +19,7 @@ var con = mysql.createConnection({
                 var newresult = result.map( value => value.temperature);
                 let data = JSON.stringify(newresult);
                 fs.writeFileSync('mysql/results.json', data);
-                // console.log('Results written to JSON file. \n' + 'Queried randomtotemp results: \n' + data + '\n');
+                 console.log('Results written to JSON file. \n' + 'Queried randomtotemp results: \n' + data + '\n');
         });
     };
 
@@ -37,7 +37,7 @@ var con = mysql.createConnection({
           for (i = 0, j = 0; i < result.length; i=i+5, j++) {
               timearray[j] = result[i]['UNIX_TIMESTAMP(timestamp)'];
           };
-          // console.log('Timestamp Data \n ' + timearray + '\n');
+           console.log('Timestamp Data \n ' + timearray + '\n');
 
         // temperature1 array block
         var temperature1 = [];

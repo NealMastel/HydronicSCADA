@@ -33,8 +33,8 @@ UPDATE `temperatures`SET thermocouple = 32, temperature = ROUND((1300 + rand() *
 UPDATE `temperatures`SET thermocouple = 33, temperature = ROUND((1800 + rand() * 100)/10,1), time = NOW()WHERE thermocouple = 33;	
 UPDATE `temperatures`SET thermocouple = 34, temperature = ROUND((1700 + rand() * 100)/10,1), time = NOW()WHERE thermocouple = 34;
 UPDATE `temperatures`SET thermocouple = 35, temperature = ROUND((20 + rand() * 1.5)/10,1), time = NOW()WHERE thermocouple = 35;
-UPDATE `temperatures`SET thermocouple = 36, temperature = ROUND((1180 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 36;
-UPDATE `temperatures`SET thermocouple = 37, temperature = ROUND((1180 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 37;
-UPDATE `temperatures`SET thermocouple = 38, temperature = ROUND((1180 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 38;
-UPDATE `temperatures`SET thermocouple = 39, temperature = ROUND((1180 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 39;
+UPDATE `temperatures`SET thermocouple = 36, temperature = ROUND((1800 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 36;
+UPDATE `temperatures`SET thermocouple = 37, temperature = ROUND((900 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 37;
+UPDATE `temperatures`SET thermocouple = 38, temperature = ROUND((820+ rand() * 20)/10,1), time = NOW()WHERE thermocouple = 38;
+UPDATE `temperatures`SET thermocouple = 39, temperature = ROUND((20 + rand() * 1.5)/10,1), time = NOW()WHERE thermocouple = 39;
 UPDATE `temperatures`SET thermocouple = 40, temperature = ROUND((1180 + rand() * 20)/10,1), time = NOW()WHERE thermocouple = 40;
